@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <img src="image/wallpaper.jpg">
   </body>
 </html>
