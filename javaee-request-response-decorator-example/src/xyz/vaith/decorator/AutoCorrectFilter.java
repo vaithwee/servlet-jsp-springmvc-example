@@ -117,7 +117,7 @@ public class AutoCorrectFilter implements Filter {
 //                    }
 //                    lastCharWasSpace = true;
                 } else {
-                    temp.append(c); 
+                    temp.append(c);
                     lastCharWasSpace = false;
                 }
             }
