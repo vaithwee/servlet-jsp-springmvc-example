@@ -3,6 +3,7 @@ package xyz.vaith.bean;
 import java.io.Serializable;
 
 public class Product implements Serializable {
+    private long id;
     private String name;
     private String description;
     private float price;
@@ -31,10 +32,19 @@ public class Product implements Serializable {
         this.price = price;
     }
 
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
                 ", price=" + price +
                 '}';

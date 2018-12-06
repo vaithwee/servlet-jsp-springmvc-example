@@ -13,6 +13,7 @@
 "
 >
     <content:component-scan base-package="xyz.vaith.controller" />
+    <content:component-scan base-package="xyz.vaith.service" />
     <mvc:annotation-driven />
     <mvc:resources mapping="/css/**" location="/css/" />
     <mvc:resources mapping="/*.html" location="/" />
